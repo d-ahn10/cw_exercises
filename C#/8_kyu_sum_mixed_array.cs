@@ -1,8 +1,11 @@
-﻿using System;
-
-public class Class1
+﻿
+using System;
+using System.Linq;
+public class Kata
 {
-	public Class1()
-	{
-	}
+    public static int SumMix(object[] x)
+    {
+        //search through object array and change everything to number data types
+
+    }
 }
