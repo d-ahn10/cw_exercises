@@ -6,9 +6,19 @@
 // -34: 34
 
 function opposite(number) {
-    if (number < 0) {
-        return (-number);
+    if (number > 0) {
+      return -Math.abs(number);
+    } else if (number < 0) {
+      return Math.abs(number);
     } else {
-        return number;
+      return 0;
     }
-  }
+} 
+
+//arrow function solution:
+let opposite = (number) => -number;
+
+//ES5 function:
+function opposite(number) {
+  return -number;
+}
